@@ -38,50 +38,10 @@ One of the most counter-intuitive ideas in forecasting is that a crowd of "biase
 
 Just as diversifying a portfolio of uncorrelated assets reduces overall variance, aggregating a "portfolio of beliefs" reduces the error variance of the collective prediction.
 
-If you have $$n$$ independent evaluators with a variance $$\sigma^2$$ in their errors, the variance of the mean prediction drops to $$\sigma^2 / n$$. In prediction markets, the financial incentive ensures that these "evaluators" are not just guessing—they are forced to be **Antifragile** (as Nassim Taleb would say), profiting from the volatility of others' ignorance.
+If you have \\( n \\) independent evaluators with a variance \\( \sigma^2 \\) in their errors, the variance of the mean prediction drops to \\( \sigma^2 / n \\). In prediction markets, the financial incentive ensures that these "evaluators" are not just guessing—they are forced to be **Antifragile** (as Nassim Taleb would say), profiting from the volatility of others' ignorance.
 
-![Market Mechanism Illustration](/ai_and_civilization/assets/img/1000037377.jpg)
+![Market Mechanism Illustration]({{ '/assets/img/1000037377.jpg' | relative_url }})
 *Figure 1: The mathematical convergence of decentralized beliefs. This visualization demonstrates how individual "noise" cancels out, leaving only the high-fidelity price signal—the ultimate proof of the Markowitz variance reduction principle in real-time forecasting.*
-
-### 4. EPCSL Analysis: The "Grand Laws" of Market Prediction
-
-Applying the **EPCSL (Cross-Domain Pattern Extractor)** procedure, we can derive three "Grand Laws" of this hidden machine learning:
-
-1.  **The Law of Skin-in-the-Game:** *Decentralized incentives aggregate truth faster than centralized compute processes data.*
-2.  **The Law of Variance Reduction:** *Accuracy is a function of independent diversity, not individual brilliance.* (A parallel to Markowitz's Efficient Frontier).
-3.  **The Geopolitical Truth Oracle:** *No AI can currently predict geopolitics because it requires real-time feature extraction from unstructured "human" data—something markets solve via price discovery.*
-
-### Conclusion: The Hybrid Future
-
-The future of intelligence is not a choice between AI and Markets. We are already seeing the emergence of **AI-Driven Market Participants**—bots that use LLMs to analyze news and then "stake" their findings on Polymarket.
-
-In this new regime, the market acts as the ultimate **Truth Oracle** for AI alignment. If an AI hallucinates, it loses money. If it discovers a truth, the market rewards it. This is the machine learning no one talks about, but it is the one that will ultimately govern our understanding of a chaotic world.
-
----
-**Strategic Implications:**
-- **For Geopolitics:** Stop watching "Expert" panels; watch the order book on the Strait of Hormuz markets.
-- **For AI Safety:** Use prediction markets as a decentralized oversight mechanism for AI predictions.
-
-
-### 4. EPCSL Analysis: The "Grand Laws" of Market Prediction
-
-Applying the **EPCSL (Cross-Domain Pattern Extractor)** procedure, we can derive three "Grand Laws" of this hidden machine learning:
-
-1.  **The Law of Skin-in-the-Game:** *Decentralized incentives aggregate truth faster than centralized compute processes data.*
-2.  **The Law of Variance Reduction:** *Accuracy is a function of independent diversity, not individual brilliance.* (A parallel to Markowitz's Efficient Frontier).
-3.  **The Geopolitical Truth Oracle:** *No AI can currently predict geopolitics because it requires real-time feature extraction from unstructured "human" data—something markets solve via price discovery.*
-
-### Conclusion: The Hybrid Future
-
-The future of intelligence is not a choice between AI and Markets. We are already seeing the emergence of **AI-Driven Market Participants**—bots that use LLMs to analyze news and then "stake" their findings on Polymarket.
-
-In this new regime, the market acts as the ultimate **Truth Oracle** for AI alignment. If an AI hallucinates, it loses money. If it discovers a truth, the market rewards it. This is the machine learning no one talks about, but it is the one that will ultimately govern our understanding of a chaotic world.
-
----
-**Strategic Implications:**
-- **For Geopolitics:** Stop watching "Expert" panels; watch the order book on the Strait of Hormuz markets.
-- **For AI Safety:** Use prediction markets as a decentralized oversight mechanism for AI predictions.
-
 
 ### 4. EPCSL Analysis: The "Grand Laws" of Market Prediction
 
