@@ -2,7 +2,6 @@ title: AI & Civilization
 description: Exploring the intersection of Artificial Intelligence, Optimization, and Human Progress
 remote_theme: daattali/beautiful-jekyll@master
 author: Yanis Labeyrie
-avatar: "assets/img/avatar.jpg"
 author_desc: "Optimization & Artificial Intelligence Enthusiast. I build systems to automate the tedious and optimize the complex."
 navbar-title: "AI & Civilization"
 future: true
@@ -11,11 +10,3 @@ baseurl: "/ai_and_civilization"
 
 # Enable MathJax site-wide
 mathjax: true
-
-# Defaults to hide avatar on posts
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      show-avatar: false
