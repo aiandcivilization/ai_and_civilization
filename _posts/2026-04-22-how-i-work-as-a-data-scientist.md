@@ -11,8 +11,6 @@ mathjax: false
 last_modified_at: 2026-04-22
 ---
 
-![Skill tree architecture]({{ '/assets/img/data-scientist-skill-tree-architecture.png' | relative_url }})
-
 For a long time, I made the same mistake most data scientists make when they start using LLMs seriously: I treated the model like a brighter interface, not like a system to engineer.
 
 That approach does not scale.
@@ -44,6 +42,8 @@ But large monolithic skills become unreadable very quickly. They overload the ag
 This is progressive disclosure applied to agent systems.
 
 The agent should not load the entire operating manual when it only needs one screwdriver.
+
+![Skill tree architecture]({{ '/assets/img/data-scientist-skill-tree-architecture.png' | relative_url }})
 
 That matters in practice. A data scientist does not only work on notebooks. In the same day, I may need to query production data, inspect a failing pipeline, compare reports, package a CLI utility, write documentation, and organize research. If all instructions are dumped into one giant file, the system becomes noisy and expensive. If the knowledge is layered properly, the agent only pulls the minimum viable context for the job.
 
@@ -102,7 +102,7 @@ RTK is a reminder that productivity is often won at the interface layer, not onl
 
 Repository:
 
-- [Rust Token Killer](https://github.com/yanis112/rtk)
+- [Rust Token Killer](https://github.com/rtk-ai/rtk)
 
 #### code-review-graph
 
@@ -170,5 +170,5 @@ And I suspect this is where a large part of high-performance data science is goi
 
 ### References & Data Sources
 
-- [Rust Token Killer (RTK)](https://github.com/yanis112/rtk)
+- [Rust Token Killer (RTK)](https://github.com/rtk-ai/rtk)
 - [code-review-graph](https://github.com/tirth8205/code-review-graph)
