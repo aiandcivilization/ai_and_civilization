@@ -11,7 +11,13 @@ mathjax: false
 last_modified_at: 2026-04-22
 ---
 
-![Skill tree architecture]({{ '/assets/img/data-scientist-skill-tree-architecture.png' | relative_url }})
+<p style="text-align: center;">
+  <img
+    src="{{ '/assets/img/data-scientist-skill-tree-architecture.png' | relative_url }}"
+    alt="Skill tree architecture"
+    style="max-width: 100%; height: auto;"
+  >
+</p>
 
 For a long time, I made the same mistake most data scientists make when they start using LLMs seriously: I treated the model like a brighter interface, not like a system to engineer.
 
