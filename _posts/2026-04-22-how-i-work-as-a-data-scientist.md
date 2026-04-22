@@ -157,6 +157,10 @@ I try to reproduce that dynamic artificially.
 
 When the agent hits friction, I do not just fix the immediate problem. I ask: what general behavior was missing? Should this become a new skill, a sharper routing rule, a better CLI method, or a stronger formatting convention?
 
+Below is a concrete example of that loop in action: the agent identifies a tooling gap, classifies the failure, and turns the one-off obstacle into a reusable CLI improvement path instead of just patching the current task.
+
+![Meta tool improvement example]({{ '/assets/img/meta-tool-improvement-example.png' | relative_url }})
+
 This is where meta-behavior improvement becomes important. I maintain skills whose purpose is to refine other skills, tighten instructions, and improve the system after failures. The point is not to create more documentation for its own sake. The point is to create plasticity inside the workflow.
 
 That is my version of continuous learning.
