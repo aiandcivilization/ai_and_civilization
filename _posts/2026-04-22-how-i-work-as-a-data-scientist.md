@@ -49,6 +49,27 @@ That matters in practice. A data scientist does not only work on notebooks. In t
 
 The diagram above represents that architecture well: clusters at the top, finer tools underneath, and specialized subskills at the edges. It is less like a document tree and more like a retrieval graph for work.
 
+When the structure matters, I want the agent to see the structure directly. That is also why code blocks matter in articles and in skills. Sometimes prose is too lossy. A formatting rule is clearer when it is shown as an artifact:
+
+```md
+---
+name: sql-cli
+description: "Use this skill when the user needs SQL discovery or SQL execution."
+---
+
+# sql-cli
+
+## Instructions
+
+### Step 1: Discover the database
+sql-cli list-databases
+
+### Step 2: Narrow the schema
+sql-cli list-schemas --db_name prod_arc
+```
+
+This is not cosmetic. It reduces ambiguity. The agent sees the exact skeleton it is supposed to follow.
+
 ### 3. Why This Matters for Data Science
 
 Data science is full of hidden repetition.
