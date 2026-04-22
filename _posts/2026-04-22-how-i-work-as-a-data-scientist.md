@@ -6,15 +6,15 @@ description: "A practical breakdown of my data scientist workflow: skill trees, 
 categories: [data-science, ai, engineering]
 tags: [context-engineering, agent-skills, cli-tools, productivity, llm-workflows, knowledge-systems]
 author: Yanis Labeyrie
-image: /assets/img/data-scientist-skill-tree-architecture.png
+image: /assets/img/data-scientist-stone-skill-deity.png
 mathjax: false
 last_modified_at: 2026-04-22
 ---
 
 <p style="text-align: center;">
   <img
-    src="{{ '/assets/img/data-scientist-skill-tree-architecture.png' | relative_url }}"
-    alt="Skill tree architecture"
+    src="{{ '/assets/img/data-scientist-stone-skill-deity.png' | relative_url }}"
+    alt="Stone deity representing a data scientist orchestrating multiple tools"
     style="max-width: 100%; height: auto;"
   >
 </p>
@@ -50,6 +50,8 @@ But large monolithic skills become unreadable very quickly. They overload the ag
 This is progressive disclosure applied to agent systems.
 
 The agent should not load the entire operating manual when it only needs one screwdriver.
+
+![Skill tree architecture]({{ '/assets/img/data-scientist-skill-tree-architecture.png' | relative_url }})
 
 That matters in practice. A data scientist does not only work on notebooks. In the same day, I may need to query production data, inspect a failing pipeline, compare reports, package a CLI utility, write documentation, and organize research. If all instructions are dumped into one giant file, the system becomes noisy and expensive. If the knowledge is layered properly, the agent only pulls the minimum viable context for the job.
 
